@@ -1,0 +1,55 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.py,cover
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Build / packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test / lint / type-check caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter noise
+.ipynb_checkpoints/
+
+# Logs and local runtime files
+*.log
+*.out
+*.err
+
+# Editor / IDE settings
+.vscode/
+.idea/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local helper / agent folders
+.agents/
+.codex/
+
+# Environment files
+.env
+.env.*
+
+# Docker / container leftovers
+*.pid

@@ -1,0 +1,24 @@
+# Python cache / virtual env
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+
+# Git / editor metadata
+.git/
+.gitignore
+.vscode/
+.agents/
+.codex/
+
+# Local data that is not required to run the API
+notebooks/
+figures/
+data/
+
+# OS noise
+Thumbs.db
+.DS_Store
